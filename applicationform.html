@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html> 
+<form style="background-color:lightblue">
+ <h1>Application Form</h1> 
+  <p>
+   Required fields are followed by
+   <strong><span aria-label="required">*</span></strong>
+  </p>
+<section>
+ <h2>Personal Information</h2>
+<p>
+ <label for="name">
+  <span>Name: </span>
+  <strong><span aria-label="required">*</span></strong>
+ </label>
+  <input type="text" id="name" name="username" required />
+</p>
+<p>
+ <label for="age">
+  <span>Age: </span>
+  <strong><span aria-label="required">*</span></strong>
+ </label>
+  <input type="number" id="age" name="user-age" required />
+</p>
+<p>
+ <label for="mail">
+  <span>E-Mail: </span>
+  <strong><span aria-label="required">*</span></strong>
+ </label>
+  <input type="email" id="mail" name="user-mail" required />
+</p>
+<p>
+ <label for="phone-num">
+  <span>PhoneNumber: </span>
+  <strong><span aria-label="required">*</span></strong>
+ </label>
+  <input type="password" id="phone-num" name="number" required />
+</p>
+
+ <fieldset>
+  <legend>EDUCTAION</legend>
+  <ul>
+   <li>
+    <label for="t_1">
+     <input type="radio" id="t_1" name="EDUCATION" value="A" />
+      1st YEAR
+      </label>
+  </li>
+   <li>
+    <label for="t_2">
+     <input type="radio" id="t_2" name="EDUCATION" value="B" />
+      2st YEAR
+      </label>
+  </li>
+   <li>
+    <label for="t_3">
+     <input type="radio" id="t_3" name="EDUCATION" value="C" />
+      3st YEAR
+    </label>
+  </li>
+   <li>
+    <label for="t_4">
+     <input type="radio" id="t_4" name="EDUCATION" value="D" />
+      4st YEAR
+     </label>
+    </li>
+  </ul>
+ </fieldset>
+</section>
+<section>
+ <p>   
+  <button type="submit">Submit</button>
+ </p>
+</section>
+  
+</form>
+<div id="success-message">🎉 Form submitted successfully!</div>
+
+</html>
